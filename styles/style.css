@@ -1,0 +1,158 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* shared style */
+.text-orange{
+    color: #FD6E0A;
+}
+
+.text-dark-2{
+    color: #474747;
+}
+
+.orange-button{
+    color: white;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.white-button{
+    color: #FD6E0A;
+    background-color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
+.bg-color{
+    background-color: #FFF8F3;
+}
+
+/* HEADER */
+
+.header{
+    background-image:url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav styles */
+
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #474747;
+}
+
+
+/* Hero starts here */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 38px;
+    margin-left: 200px;
+}
+
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight:700;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+
+.banner-profile-pic{
+    width: 584px;
+    height: 676px;
+}
+
+
+/* Main Section */
+
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+.item-title{
+    color: #757575;
+    font-weight: 400;
+}
+
+.item-description{
+    color: #474747;
+    font-weight: 700;
+}
+
+
